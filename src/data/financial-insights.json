@@ -1,0 +1,715 @@
+{
+  "summary": {
+    "totalVolume": 48966073.38,
+    "transactionCount": 10267,
+    "averageAmount": 4769.27,
+    "medianAmount": 4783.1,
+    "dateSpan": {
+      "start": "2022-04-17",
+      "end": "2024-04-16"
+    }
+  },
+  "categories": [
+    {
+      "category": "travel",
+      "totalAmount": 12044742.4,
+      "count": 2419,
+      "percentage": 24.6
+    },
+    {
+      "category": "entertainment",
+      "totalAmount": 11572453.74,
+      "count": 2388,
+      "percentage": 23.6
+    },
+    {
+      "category": "online_shopping",
+      "totalAmount": 11558159.7,
+      "count": 2596,
+      "percentage": 23.6
+    },
+    {
+      "category": "fitness_and_medical",
+      "totalAmount": 9785338.1,
+      "count": 2067,
+      "percentage": 20
+    },
+    {
+      "category": "Uncategorized",
+      "totalAmount": 4005379.44,
+      "count": 797,
+      "percentage": 8.2
+    }
+  ],
+  "topStates": [
+    {
+      "state": "Unknown Region",
+      "count": 847,
+      "totalAmount": 3963593.42
+    },
+    {
+      "state": "Tamil Nadu",
+      "count": 401,
+      "totalAmount": 2069352.73
+    },
+    {
+      "state": "Uttarakhand",
+      "count": 410,
+      "totalAmount": 1960072.39
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "count": 396,
+      "totalAmount": 1934609.68
+    },
+    {
+      "state": "Telangana",
+      "count": 397,
+      "totalAmount": 1897941.47
+    },
+    {
+      "state": "Nagaland",
+      "count": 384,
+      "totalAmount": 1886770.24
+    },
+    {
+      "state": "Sikkim",
+      "count": 394,
+      "totalAmount": 1842271.97
+    },
+    {
+      "state": "Tripura",
+      "count": 375,
+      "totalAmount": 1775587.53
+    },
+    {
+      "state": "Assam",
+      "count": 355,
+      "totalAmount": 1765218.02
+    },
+    {
+      "state": "Mizoram",
+      "count": 335,
+      "totalAmount": 1762803.27
+    }
+  ],
+  "topOccupations": [
+    {
+      "job": "Event organiser",
+      "count": 58
+    },
+    {
+      "job": "Conservator, museum/gallery",
+      "count": 51
+    },
+    {
+      "job": "Designer, ceramics/pottery",
+      "count": 51
+    },
+    {
+      "job": "Optician, dispensing",
+      "count": 50
+    },
+    {
+      "job": "Adult guidance worker",
+      "count": 48
+    },
+    {
+      "job": "Fine artist",
+      "count": 46
+    },
+    {
+      "job": "Data processing manager",
+      "count": 43
+    },
+    {
+      "job": "Buyer, industrial",
+      "count": 42
+    },
+    {
+      "job": "Engineer, site",
+      "count": 42
+    },
+    {
+      "job": "Insurance claims handler",
+      "count": 42
+    }
+  ],
+  "fraudAudit": {
+    "totalAnalyzed": 10267,
+    "flaggedCount": 5046,
+    "flaggedPct": 49.15,
+    "legitimateCount": 4576,
+    "unlabelledCount": 645,
+    "flaggedVolume": 24283112.91,
+    "yearlyFraud": [
+      {
+        "year": "2022",
+        "flagged": 1563,
+        "total": 3303
+      },
+      {
+        "year": "2023",
+        "flagged": 2363,
+        "total": 4799
+      },
+      {
+        "year": "2024",
+        "flagged": 697,
+        "total": 1315
+      }
+    ]
+  },
+  "sampleFlaggedRecords": [
+    {
+      "id": "flag-8",
+      "date": "2023-03-02",
+      "merchant": "Bhatti PLC Pvt Ltd",
+      "category": "Uncategorized",
+      "amount": 7292.34,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Assam",
+      "jobCategory": "Tour manager",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-11",
+      "date": "2023-06-07",
+      "merchant": "Savant, Bhardwaj and Lata Pvt Ltd",
+      "category": "travel",
+      "amount": 8186.72,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Uttarakhand",
+      "jobCategory": "Plant breeder/geneticist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-14",
+      "date": "2022-12-15",
+      "merchant": "General Merchant",
+      "category": "online_shopping",
+      "amount": 9776.22,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Nagaland",
+      "jobCategory": "Horticultural consultant",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-16",
+      "date": "2022-10-26",
+      "merchant": "Chaudhari Group Pvt Ltd",
+      "category": "entertainment",
+      "amount": 4333.7,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Bihar",
+      "jobCategory": "Logistics and distribution manager",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-17",
+      "date": "2022-09-05",
+      "merchant": "Gulati, Contractor and Hora Pvt Ltd",
+      "category": "entertainment",
+      "amount": 4402.57,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Nagaland",
+      "jobCategory": "Professional",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-18",
+      "date": "2023-04-18",
+      "merchant": "Bhalla, Wadhwa and Sarin Pvt Ltd",
+      "category": "fitness_and_medical",
+      "amount": 542.89,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Sikkim",
+      "jobCategory": "Conservator, museum/gallery",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-19",
+      "date": "2023-06-22",
+      "merchant": "Walla and Sons Pvt Ltd",
+      "category": "fitness_and_medical",
+      "amount": 2476.03,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Rajasthan",
+      "jobCategory": "Operational investment banker",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-21",
+      "date": "2022-11-18",
+      "merchant": "Saraf PLC Pvt Ltd",
+      "category": "travel",
+      "amount": 3500.9,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Uttarakhand",
+      "jobCategory": "Biochemist, clinical",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-23",
+      "date": "2023-06-29",
+      "merchant": "Ahuja-Chanda Pvt Ltd",
+      "category": "entertainment",
+      "amount": 8250.53,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Jharkhand",
+      "jobCategory": "Designer, furniture",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-24",
+      "date": "2023-01-01",
+      "merchant": "Kata-Kapadia Pvt Ltd",
+      "category": "fitness_and_medical",
+      "amount": 2771.66,
+      "maskedCard": "**** **** **** 8618",
+      "locationState": "Tripura",
+      "jobCategory": "Investment banker, operational",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-26",
+      "date": "2023-02-12",
+      "merchant": "Dave-Kota Pvt Ltd",
+      "category": "travel",
+      "amount": 2907.72,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Mizoram",
+      "jobCategory": "Professional",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-27",
+      "date": "2023-11-27",
+      "merchant": "Kari, Borde and Lanka Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 1174.31,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Maharashtra",
+      "jobCategory": "Ophthalmologist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-29",
+      "date": "2022-11-18",
+      "merchant": "Kale PLC Pvt Ltd",
+      "category": "entertainment",
+      "amount": 4945.28,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Jharkhand",
+      "jobCategory": "Biochemist, clinical",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-30",
+      "date": "2023-05-16",
+      "merchant": "Ganesan-Mannan Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 7850.53,
+      "maskedCard": "**** **** **** 9718",
+      "locationState": "Karnataka",
+      "jobCategory": "Geophysicist/field seismologist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-33",
+      "date": "2023-03-27",
+      "merchant": "Saini, Mahal and Batta Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 1767.67,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Karnataka",
+      "jobCategory": "Proofreader",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-36",
+      "date": "2023-03-04",
+      "merchant": "Dey, Cheema and Ramesh Pvt Ltd",
+      "category": "travel",
+      "amount": 1407.04,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Maharashtra",
+      "jobCategory": "Product manager",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-37",
+      "date": "2022-07-18",
+      "merchant": "Srinivas, Arora and Venkataraman Pvt Ltd",
+      "category": "travel",
+      "amount": 6221.5,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Nagaland",
+      "jobCategory": "Professional",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-42",
+      "date": "2022-10-06",
+      "merchant": "Gara Ltd Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 4844.46,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Assam",
+      "jobCategory": "Consulting civil engineer",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-43",
+      "date": "2023-06-02",
+      "merchant": "Dugal Ltd Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 2748.3,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Manipur",
+      "jobCategory": "Plant breeder/geneticist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-44",
+      "date": "2022-12-03",
+      "merchant": "General Merchant",
+      "category": "entertainment",
+      "amount": 1878.2,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Gujarat",
+      "jobCategory": "Police officer",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-48",
+      "date": "2024-02-04",
+      "merchant": "General Merchant",
+      "category": "fitness_and_medical",
+      "amount": 676.93,
+      "maskedCard": "**** **** **** 9876",
+      "locationState": "Chhattisgarh",
+      "jobCategory": "Professional",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-49",
+      "date": "2022-12-22",
+      "merchant": "Bawa, Saini and Viswanathan Pvt Ltd",
+      "category": "entertainment",
+      "amount": 9157.91,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Kerala",
+      "jobCategory": "Psychotherapist, child",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-51",
+      "date": "2022-08-11",
+      "merchant": "General Merchant",
+      "category": "entertainment",
+      "amount": 9809.51,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Chhattisgarh",
+      "jobCategory": "Telecommunications researcher",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-52",
+      "date": "2022-07-25",
+      "merchant": "Khatri, Wadhwa and Gala Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 9472.65,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Goa",
+      "jobCategory": "Engineer, building services",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-55",
+      "date": "2023-04-15",
+      "merchant": "Din, Anne and Borde Pvt Ltd",
+      "category": "Uncategorized",
+      "amount": 6827.46,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Arunachal Pradesh",
+      "jobCategory": "Education administrator",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-56",
+      "date": "2023-12-15",
+      "merchant": "Kata LLC Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 9363.93,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Karnataka",
+      "jobCategory": "Chartered public finance accountant",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-58",
+      "date": "2022-04-24",
+      "merchant": "General Merchant",
+      "category": "travel",
+      "amount": 6434.21,
+      "maskedCard": "**** **** **** 9876",
+      "locationState": "Goa",
+      "jobCategory": "Farm manager",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-64",
+      "date": "2023-01-01",
+      "merchant": "Rajan Inc Pvt Ltd",
+      "category": "entertainment",
+      "amount": 5470.96,
+      "maskedCard": "**** **** **** 0318",
+      "locationState": "Tripura",
+      "jobCategory": "Operations geologist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-66",
+      "date": "2023-02-07",
+      "merchant": "Lad-Mahajan Pvt Ltd",
+      "category": "entertainment",
+      "amount": 1869.38,
+      "maskedCard": "**** **** **** 0118",
+      "locationState": "Rajasthan",
+      "jobCategory": "Air traffic controller",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-68",
+      "date": "2022-08-30",
+      "merchant": "Roy, Vora and Khare Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 5730.37,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Sikkim",
+      "jobCategory": "Recruitment consultant",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-69",
+      "date": "2023-11-09",
+      "merchant": "Kapoor and Sons Pvt Ltd",
+      "category": "entertainment",
+      "amount": 7391.11,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Punjab",
+      "jobCategory": "Surveyor, hydrographic",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-74",
+      "date": "2023-09-17",
+      "merchant": "General Merchant",
+      "category": "online_shopping",
+      "amount": 2000.4,
+      "maskedCard": "**** **** **** 6918",
+      "locationState": "Kerala",
+      "jobCategory": "Professional",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-75",
+      "date": "2023-12-17",
+      "merchant": "Som, Loke and Mangal Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 432.21,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Bihar",
+      "jobCategory": "Engineering geologist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-76",
+      "date": "2022-10-02",
+      "merchant": "Shan, Venkataraman and Tank Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 5479.84,
+      "maskedCard": "**** **** **** 7218",
+      "locationState": "Kerala",
+      "jobCategory": "Garment/textile technologist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-77",
+      "date": "2024-03-15",
+      "merchant": "Devan-Date Pvt Ltd",
+      "category": "fitness_and_medical",
+      "amount": 1980.75,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Sikkim",
+      "jobCategory": "Accountant, chartered management",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-78",
+      "date": "2024-03-24",
+      "merchant": "Chaudhuri, Dara and Vora Pvt Ltd",
+      "category": "entertainment",
+      "amount": 3859.14,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Arunachal Pradesh",
+      "jobCategory": "Politician's assistant",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-82",
+      "date": "2023-07-08",
+      "merchant": "Din Ltd Pvt Ltd",
+      "category": "Uncategorized",
+      "amount": 4680.19,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Jharkhand",
+      "jobCategory": "Waste management officer",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-84",
+      "date": "2023-10-24",
+      "merchant": "Andra, Walia and Suri Pvt Ltd",
+      "category": "entertainment",
+      "amount": 7293.97,
+      "maskedCard": "**** **** **** 2218",
+      "locationState": "Sikkim",
+      "jobCategory": "Administrator, charities/voluntary organisations",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-90",
+      "date": "2024-03-18",
+      "merchant": "Kale, Wable and Hans Pvt Ltd",
+      "category": "entertainment",
+      "amount": 4343.1,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Rajasthan",
+      "jobCategory": "Actuary",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-91",
+      "date": "2023-03-28",
+      "merchant": "General Merchant",
+      "category": "travel",
+      "amount": 9124.27,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Goa",
+      "jobCategory": "Museum/gallery curator",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-92",
+      "date": "2023-07-03",
+      "merchant": "Bhattacharyya-Madan Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 0,
+      "maskedCard": "**** **** **** 9818",
+      "locationState": "Sikkim",
+      "jobCategory": "Education officer, community",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-93",
+      "date": "2022-04-23",
+      "merchant": "Khatri, Sridhar and Rattan Pvt Ltd",
+      "category": "online_shopping",
+      "amount": 848.98,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Goa",
+      "jobCategory": "Teacher, special educational needs",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-96",
+      "date": "2023-08-24",
+      "merchant": "Rajagopalan-Ravi Pvt Ltd",
+      "category": "travel",
+      "amount": 7774.54,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Unknown Region",
+      "jobCategory": "Armed forces logistics/support/administrative officer",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-97",
+      "date": "2023-01-01",
+      "merchant": "Keer Ltd Pvt Ltd",
+      "category": "entertainment",
+      "amount": 2902.48,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Bihar",
+      "jobCategory": "Retail manager",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-99",
+      "date": "2023-01-01",
+      "merchant": "Rajagopalan PLC Pvt Ltd",
+      "category": "travel",
+      "amount": 919.1,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Uttar Pradesh",
+      "jobCategory": "Professional",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-100",
+      "date": "2022-09-08",
+      "merchant": "Saxena, Kala and Badami Pvt Ltd",
+      "category": "fitness_and_medical",
+      "amount": 5872.62,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "West Bengal",
+      "jobCategory": "Scientific laboratory technician",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-101",
+      "date": "2023-07-17",
+      "merchant": "Comar, Raval and Kibe Pvt Ltd",
+      "category": "travel",
+      "amount": 7724.33,
+      "maskedCard": "**** **** **** 1318",
+      "locationState": "Madhya Pradesh",
+      "jobCategory": "Gaffer",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-104",
+      "date": "2023-01-01",
+      "merchant": "Bhattacharyya-Gole Pvt Ltd",
+      "category": "entertainment",
+      "amount": 4965.38,
+      "maskedCard": "**** **** **** 9876",
+      "locationState": "Unknown Region",
+      "jobCategory": "Facilities manager",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-107",
+      "date": "2023-04-27",
+      "merchant": "Ravel-Walia Pvt Ltd",
+      "category": "fitness_and_medical",
+      "amount": 8495.58,
+      "maskedCard": "**** **** **** 9876",
+      "locationState": "Assam",
+      "jobCategory": "Multimedia specialist",
+      "isFlagged": true
+    },
+    {
+      "id": "flag-113",
+      "date": "2023-12-09",
+      "merchant": "Lad-Master Pvt Ltd",
+      "category": "entertainment",
+      "amount": 9542.03,
+      "maskedCard": "**** **** **** 0000",
+      "locationState": "Unknown Region",
+      "jobCategory": "Recruitment consultant",
+      "isFlagged": true
+    }
+  ]
+}

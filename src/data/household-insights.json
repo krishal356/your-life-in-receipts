@@ -1,0 +1,713 @@
+{
+  "summary": {
+    "totalExpense": 1957390.53,
+    "totalIncome": 3042397.35,
+    "totalTransferOut": 1770780.9,
+    "netSavingsEstimated": -685774.08,
+    "transactionCount": 2461,
+    "dateSpan": {
+      "start": "2015-01-01",
+      "end": "2018-09-20"
+    }
+  },
+  "categories": [
+    {
+      "category": "Money transfer",
+      "totalAmount": 606528.9,
+      "count": 43,
+      "percentage": 31
+    },
+    {
+      "category": "Investment",
+      "totalAmount": 271858,
+      "count": 103,
+      "percentage": 13.9
+    },
+    {
+      "category": "Transportation",
+      "totalAmount": 169053.78,
+      "count": 307,
+      "percentage": 8.6
+    },
+    {
+      "category": "Household",
+      "totalAmount": 161645.58,
+      "count": 176,
+      "percentage": 8.3
+    },
+    {
+      "category": "subscription",
+      "totalAmount": 114587.91,
+      "count": 143,
+      "percentage": 5.9
+    },
+    {
+      "category": "Food",
+      "totalAmount": 96403.1,
+      "count": 907,
+      "percentage": 4.9
+    },
+    {
+      "category": "Public Provident Fund",
+      "totalAmount": 90000,
+      "count": 8,
+      "percentage": 4.6
+    },
+    {
+      "category": "Other",
+      "totalAmount": 87025.28,
+      "count": 114,
+      "percentage": 4.4
+    },
+    {
+      "category": "Family",
+      "totalAmount": 78582.2,
+      "count": 71,
+      "percentage": 4
+    },
+    {
+      "category": "Health",
+      "totalAmount": 66252.75,
+      "count": 94,
+      "percentage": 3.4
+    },
+    {
+      "category": "Tourism",
+      "totalAmount": 63608.85,
+      "count": 5,
+      "percentage": 3.2
+    },
+    {
+      "category": "Gift",
+      "totalAmount": 40168,
+      "count": 30,
+      "percentage": 2.1
+    },
+    {
+      "category": "Apparel",
+      "totalAmount": 25373.82,
+      "count": 47,
+      "percentage": 1.3
+    },
+    {
+      "category": "Recurring Deposit",
+      "totalAmount": 22000,
+      "count": 22,
+      "percentage": 1.1
+    },
+    {
+      "category": "maid",
+      "totalAmount": 21839,
+      "count": 17,
+      "percentage": 1.1
+    },
+    {
+      "category": "Cook",
+      "totalAmount": 12443,
+      "count": 4,
+      "percentage": 0.6
+    },
+    {
+      "category": "Rent",
+      "totalAmount": 10709,
+      "count": 4,
+      "percentage": 0.5
+    },
+    {
+      "category": "Festivals",
+      "totalAmount": 6911,
+      "count": 16,
+      "percentage": 0.4
+    },
+    {
+      "category": "Culture",
+      "totalAmount": 4304.36,
+      "count": 11,
+      "percentage": 0.2
+    },
+    {
+      "category": "Beauty",
+      "totalAmount": 4189,
+      "count": 22,
+      "percentage": 0.2
+    },
+    {
+      "category": "Self-development",
+      "totalAmount": 2357,
+      "count": 2,
+      "percentage": 0.1
+    },
+    {
+      "category": "Education",
+      "totalAmount": 537,
+      "count": 18,
+      "percentage": 0
+    },
+    {
+      "category": "Grooming",
+      "totalAmount": 400,
+      "count": 4,
+      "percentage": 0
+    },
+    {
+      "category": "Social Life",
+      "totalAmount": 298,
+      "count": 1,
+      "percentage": 0
+    },
+    {
+      "category": "water (jar /tanker)",
+      "totalAmount": 148,
+      "count": 3,
+      "percentage": 0
+    },
+    {
+      "category": "Documents",
+      "totalAmount": 100,
+      "count": 2,
+      "percentage": 0
+    },
+    {
+      "category": "garbage disposal",
+      "totalAmount": 67,
+      "count": 2,
+      "percentage": 0
+    }
+  ],
+  "paymentModes": [
+    {
+      "mode": "Saving Bank account 1",
+      "count": 1223,
+      "totalAmount": 5791530.99
+    },
+    {
+      "mode": "Cash",
+      "count": 1046,
+      "totalAmount": 176252
+    },
+    {
+      "mode": "Credit Card",
+      "count": 162,
+      "totalAmount": 205254.01
+    },
+    {
+      "mode": "Equity Mutual Fund B",
+      "count": 11,
+      "totalAmount": 22000
+    },
+    {
+      "mode": "Share Market Trading",
+      "count": 5,
+      "totalAmount": 102798.57
+    },
+    {
+      "mode": "Saving Bank account 2",
+      "count": 5,
+      "totalAmount": 752.85
+    },
+    {
+      "mode": "Recurring Deposit",
+      "count": 3,
+      "totalAmount": 94738
+    },
+    {
+      "mode": "Debit Card",
+      "count": 2,
+      "totalAmount": 942.36
+    },
+    {
+      "mode": "Equity Mutual Fund C",
+      "count": 1,
+      "totalAmount": 6049
+    },
+    {
+      "mode": "Equity Mutual Fund A",
+      "count": 1,
+      "totalAmount": 113376
+    },
+    {
+      "mode": "Equity Mutual Fund D",
+      "count": 1,
+      "totalAmount": 106875
+    },
+    {
+      "mode": "Fixed Deposit",
+      "count": 1,
+      "totalAmount": 150000
+    }
+  ],
+  "yearlySpend": [
+    {
+      "year": "2015",
+      "spend": 422074.39999999997,
+      "transactions": 388
+    },
+    {
+      "year": "2016",
+      "spend": 470084.20000000007,
+      "transactions": 329
+    },
+    {
+      "year": "2017",
+      "spend": 652597.6699999999,
+      "transactions": 889
+    },
+    {
+      "year": "2018",
+      "spend": 412634.26,
+      "transactions": 570
+    }
+  ],
+  "memorableMicroMoments": [
+    {
+      "id": "hh-mem-2",
+      "date": "2018-09-20",
+      "category": "Transportation",
+      "subcategory": "Train",
+      "note": "2 Place 5 to Place 0",
+      "amount": 30,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-3",
+      "date": "2018-09-20",
+      "category": "Food",
+      "subcategory": "snacks",
+      "note": "Idli medu Vada mix 2 plates",
+      "amount": 60,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-4",
+      "date": "2018-09-19",
+      "category": "subscription",
+      "subcategory": "Netflix",
+      "note": "1 month subscription",
+      "amount": 199,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-5",
+      "date": "2018-09-17",
+      "category": "subscription",
+      "subcategory": "Mobile Service Provider",
+      "note": "Data booster pack",
+      "amount": 19,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-6",
+      "date": "2018-09-16",
+      "category": "Festivals",
+      "subcategory": "Ganesh Pujan",
+      "note": "Ganesh idol",
+      "amount": 251,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-7",
+      "date": "2018-09-15",
+      "category": "subscription",
+      "subcategory": "Tata Sky",
+      "note": "Permanent Residence - Tata Play recharge",
+      "amount": 200,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-8",
+      "date": "2018-09-14",
+      "category": "Transportation",
+      "subcategory": "auto",
+      "note": "Place 2 station to Permanent Residence",
+      "amount": 50,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-9",
+      "date": "2018-09-13",
+      "category": "Transportation",
+      "subcategory": "Train",
+      "note": "2 Place 0 to Place 3",
+      "amount": 40,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-10",
+      "date": "2018-09-13",
+      "category": "Other",
+      "subcategory": "",
+      "note": "HBR 2 Months subscription",
+      "amount": 83,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-11",
+      "date": "2018-09-13",
+      "category": "Food",
+      "subcategory": "Grocery",
+      "note": "1kg atta",
+      "amount": 46,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-14",
+      "date": "2018-09-12",
+      "category": "subscription",
+      "subcategory": "Mobile Service Provider",
+      "note": "Data booster pack",
+      "amount": 667,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-15",
+      "date": "2018-09-11",
+      "category": "Food",
+      "subcategory": "Lunch",
+      "note": "Home Food Delivery",
+      "amount": 650,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-17",
+      "date": "2018-09-11",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-18",
+      "date": "2018-09-10",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-20",
+      "date": "2018-09-07",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 37,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-22",
+      "date": "2018-09-06",
+      "category": "Food",
+      "subcategory": "snacks",
+      "note": "Amul butter",
+      "amount": 55,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-23",
+      "date": "2018-09-05",
+      "category": "Apparel",
+      "subcategory": "Laundry",
+      "note": "11 clothes ironing",
+      "amount": 77,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-24",
+      "date": "2018-09-05",
+      "category": "Food",
+      "subcategory": "snacks",
+      "note": "Chinese Bhel",
+      "amount": 30,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-25",
+      "date": "2018-09-05",
+      "category": "Food",
+      "subcategory": "snacks",
+      "note": "Shev Puri",
+      "amount": 40,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-26",
+      "date": "2018-09-05",
+      "category": "Food",
+      "subcategory": "snacks",
+      "note": "2 kachori",
+      "amount": 24,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-27",
+      "date": "2018-09-05",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-28",
+      "date": "2018-09-05",
+      "category": "Food",
+      "subcategory": "breakfast",
+      "note": "Bread",
+      "amount": 18,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-33",
+      "date": "2018-08-31",
+      "category": "Gift",
+      "subcategory": "",
+      "note": "farewell contribution",
+      "amount": 118,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-34",
+      "date": "2018-08-31",
+      "category": "Food",
+      "subcategory": "Dinner",
+      "note": "Domino's Pizza",
+      "amount": 510.85,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-36",
+      "date": "2018-08-31",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-37",
+      "date": "2018-08-30",
+      "category": "Food",
+      "subcategory": "Sweets",
+      "note": "Warna Srikhand pav kg",
+      "amount": 78,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-38",
+      "date": "2018-08-30",
+      "category": "Household",
+      "subcategory": "Kirana",
+      "note": "Supermart",
+      "amount": 343,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-39",
+      "date": "2018-08-29",
+      "category": "Food",
+      "subcategory": "Grocery",
+      "note": "Baking soda",
+      "amount": 27,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-40",
+      "date": "2018-08-29",
+      "category": "Food",
+      "subcategory": "Ice cream",
+      "note": "chocobar",
+      "amount": 15,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-41",
+      "date": "2018-08-29",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-44",
+      "date": "2018-08-27",
+      "category": "Food",
+      "subcategory": "curd",
+      "note": "Dahi 2 packets",
+      "amount": 20,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-45",
+      "date": "2018-08-27",
+      "category": "Food",
+      "subcategory": "breakfast",
+      "note": "2 plates poha",
+      "amount": 60,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-46",
+      "date": "2018-08-27",
+      "category": "Food",
+      "subcategory": "Biscuits",
+      "note": "Khari packet",
+      "amount": 45,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-47",
+      "date": "2018-08-27",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-49",
+      "date": "2018-08-25",
+      "category": "Apparel",
+      "subcategory": "Laundry",
+      "note": "13 clothes ironing",
+      "amount": 91,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-50",
+      "date": "2018-08-24",
+      "category": "Food",
+      "subcategory": "Dinner",
+      "note": "Home Food Delivery",
+      "amount": 1120,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-53",
+      "date": "2018-08-24",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-54",
+      "date": "2018-08-24",
+      "category": "Festivals",
+      "subcategory": "Navratri",
+      "note": "Ganpati+ navratri vargani",
+      "amount": 1000,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-55",
+      "date": "2018-08-23",
+      "category": "Transportation",
+      "subcategory": "train",
+      "note": "2 Place 2 to Place 3 : Sevagram express 3AC",
+      "amount": 1305.4,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-56",
+      "date": "2018-08-23",
+      "category": "Transportation",
+      "subcategory": "train",
+      "note": "2 Place 3 to Place 2 : Amritsar express 3AC",
+      "amount": 1205.4,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-57",
+      "date": "2018-08-23",
+      "category": "Food",
+      "subcategory": "Lunch",
+      "note": "Catering Service",
+      "amount": 60,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-58",
+      "date": "2018-08-22",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 37,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-60",
+      "date": "2018-08-21",
+      "category": "Food",
+      "subcategory": "Tea",
+      "note": "cutting chai",
+      "amount": 12,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-61",
+      "date": "2018-08-21",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-62",
+      "date": "2018-08-19",
+      "category": "subscription",
+      "subcategory": "Netflix",
+      "note": "1 month subscription",
+      "amount": 199,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-63",
+      "date": "2018-08-17",
+      "category": "Food",
+      "subcategory": "curd",
+      "note": "Dahi 2 packets",
+      "amount": 20,
+      "mode": "Saving Bank account 1"
+    },
+    {
+      "id": "hh-mem-64",
+      "date": "2018-08-17",
+      "category": "Food",
+      "subcategory": "Milk",
+      "note": "Half lit  milk",
+      "amount": 36,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-66",
+      "date": "2018-08-16",
+      "category": "subscription",
+      "subcategory": "Tata Sky",
+      "note": "Permanent Residence - Tata Play recharge",
+      "amount": 157,
+      "mode": "Credit Card"
+    },
+    {
+      "id": "hh-mem-67",
+      "date": "2018-08-15",
+      "category": "Food",
+      "subcategory": "Sweets",
+      "note": "Warna Srikhand half kg",
+      "amount": 290,
+      "mode": "Cash"
+    },
+    {
+      "id": "hh-mem-68",
+      "date": "2018-08-15",
+      "category": "Food",
+      "subcategory": "flour mill",
+      "note": "M D sure 4kg atta",
+      "amount": 216,
+      "mode": "Cash"
+    }
+  ]
+}

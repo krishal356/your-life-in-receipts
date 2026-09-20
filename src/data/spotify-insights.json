@@ -1,0 +1,367 @@
+{
+  "overall": {
+    "totalStreams": 149860,
+    "totalHours": 5341.5,
+    "uniqueArtists": 4113,
+    "uniqueTracks": 14639,
+    "uniqueAlbums": 7948,
+    "skipRatePct": 5.25,
+    "shuffleRatePct": 74.46,
+    "topPlatforms": [
+      {
+        "platform": "android",
+        "count": 139821,
+        "percentage": 93.3
+      },
+      {
+        "platform": "cast to device",
+        "count": 3898,
+        "percentage": 2.6
+      },
+      {
+        "platform": "iOS",
+        "count": 3049,
+        "percentage": 2
+      },
+      {
+        "platform": "windows",
+        "count": 1691,
+        "percentage": 1.1
+      },
+      {
+        "platform": "mac",
+        "count": 1176,
+        "percentage": 0.8
+      },
+      {
+        "platform": "web player",
+        "count": 225,
+        "percentage": 0.2
+      }
+    ]
+  },
+  "topArtists": [
+    {
+      "name": "The Beatles",
+      "hours": 336.2,
+      "streams": 13621,
+      "topTrack": "Come Together - Remastered 2009"
+    },
+    {
+      "name": "The Killers",
+      "hours": 294.3,
+      "streams": 6878,
+      "topTrack": "Dying Breed"
+    },
+    {
+      "name": "John Mayer",
+      "hours": 201.4,
+      "streams": 4855,
+      "topTrack": "In the Blood"
+    },
+    {
+      "name": "Bob Dylan",
+      "hours": 158.2,
+      "streams": 3814,
+      "topTrack": "Shelter from the Storm"
+    },
+    {
+      "name": "Paul McCartney",
+      "hours": 99.3,
+      "streams": 2697,
+      "topTrack": "Band On The Run - 2010 Remaster"
+    },
+    {
+      "name": "Howard Shore",
+      "hours": 96.9,
+      "streams": 1446,
+      "topTrack": "Concerning Hobbits"
+    },
+    {
+      "name": "The Strokes",
+      "hours": 88.2,
+      "streams": 1818,
+      "topTrack": "Ode To The Mets"
+    },
+    {
+      "name": "The Rolling Stones",
+      "hours": 85.5,
+      "streams": 2390,
+      "topTrack": "Sweet Virginia"
+    },
+    {
+      "name": "Pink Floyd",
+      "hours": 72.4,
+      "streams": 2105,
+      "topTrack": "Brain Damage"
+    },
+    {
+      "name": "Led Zeppelin",
+      "hours": 69,
+      "streams": 2482,
+      "topTrack": "Good Times Bad Times - Remaster"
+    },
+    {
+      "name": "Imagine Dragons",
+      "hours": 67.3,
+      "streams": 2116,
+      "topTrack": "Not Today"
+    },
+    {
+      "name": "Johnny Cash",
+      "hours": 66.6,
+      "streams": 2478,
+      "topTrack": "Folsom Prison Blues - Live at Folsom State Prison, Folsom, CA - January 1968"
+    },
+    {
+      "name": "Kings of Leon",
+      "hours": 60.7,
+      "streams": 1381,
+      "topTrack": "100,000 People"
+    },
+    {
+      "name": "Radiohead",
+      "hours": 60.2,
+      "streams": 2305,
+      "topTrack": "Let Down"
+    },
+    {
+      "name": "Coldplay",
+      "hours": 57.6,
+      "streams": 1631,
+      "topTrack": "Swallowed in the Sea"
+    }
+  ],
+  "topTracks": [
+    {
+      "name": "Ode To The Mets",
+      "artist": "The Strokes",
+      "plays": 207,
+      "durationMinutes": 5.4
+    },
+    {
+      "name": "In the Blood",
+      "artist": "John Mayer",
+      "plays": 181,
+      "durationMinutes": 3.5
+    },
+    {
+      "name": "Dying Breed",
+      "artist": "The Killers",
+      "plays": 166,
+      "durationMinutes": 3.6
+    },
+    {
+      "name": "Caution",
+      "artist": "The Killers",
+      "plays": 164,
+      "durationMinutes": 3.6
+    },
+    {
+      "name": "19 Dias y 500 Noches - En Directo",
+      "artist": "Joaquín Sabina",
+      "plays": 148,
+      "durationMinutes": 4.8
+    },
+    {
+      "name": "All These Things That I've Done",
+      "artist": "The Killers",
+      "plays": 142,
+      "durationMinutes": 4.2
+    },
+    {
+      "name": "Concerning Hobbits",
+      "artist": "Howard Shore",
+      "plays": 142,
+      "durationMinutes": 2.3
+    },
+    {
+      "name": "Come Together - Remastered 2009",
+      "artist": "The Beatles",
+      "plays": 137,
+      "durationMinutes": 2.8
+    },
+    {
+      "name": "Yesterday - Remastered 2009",
+      "artist": "The Beatles",
+      "plays": 134,
+      "durationMinutes": 1.9
+    },
+    {
+      "name": "Crucify Your Mind",
+      "artist": "Rodríguez",
+      "plays": 131,
+      "durationMinutes": 2.5
+    },
+    {
+      "name": "Cavalleria rusticana: Intermezzo",
+      "artist": "Pietro Mascagni",
+      "plays": 128,
+      "durationMinutes": 2.9
+    },
+    {
+      "name": "Mr. Brightside",
+      "artist": "The Killers",
+      "plays": 127,
+      "durationMinutes": 2.6
+    },
+    {
+      "name": "Reminder",
+      "artist": "Mumford & Sons",
+      "plays": 127,
+      "durationMinutes": 2.1
+    },
+    {
+      "name": "Sweet Virginia",
+      "artist": "The Rolling Stones",
+      "plays": 127,
+      "durationMinutes": 3.6
+    },
+    {
+      "name": "I Guess I Just Feel Like",
+      "artist": "John Mayer",
+      "plays": 127,
+      "durationMinutes": 3.9
+    }
+  ],
+  "yearly": [
+    {
+      "year": "2013",
+      "streams": 185,
+      "hours": 7.8,
+      "topArtist": "John Mayer",
+      "skipRatePct": 13.5
+    },
+    {
+      "year": "2014",
+      "streams": 23,
+      "hours": 1,
+      "topArtist": "Stevie Ray Vaughan",
+      "skipRatePct": 30.4
+    },
+    {
+      "year": "2015",
+      "streams": 2809,
+      "hours": 59.2,
+      "topArtist": "The Rolling Stones",
+      "skipRatePct": 78.7
+    },
+    {
+      "year": "2016",
+      "streams": 6413,
+      "hours": 197.6,
+      "topArtist": "The Beatles",
+      "skipRatePct": 3.6
+    },
+    {
+      "year": "2017",
+      "streams": 26320,
+      "hours": 670.6,
+      "topArtist": "The Beatles",
+      "skipRatePct": 0.1
+    },
+    {
+      "year": "2018",
+      "streams": 14817,
+      "hours": 474.2,
+      "topArtist": "The Beatles",
+      "skipRatePct": 0
+    },
+    {
+      "year": "2019",
+      "streams": 14927,
+      "hours": 479.2,
+      "topArtist": "The Beatles",
+      "skipRatePct": 0
+    },
+    {
+      "year": "2020",
+      "streams": 24280,
+      "hours": 920.7,
+      "topArtist": "The Killers",
+      "skipRatePct": 0
+    },
+    {
+      "year": "2021",
+      "streams": 22991,
+      "hours": 891.8,
+      "topArtist": "The Killers",
+      "skipRatePct": 0
+    },
+    {
+      "year": "2022",
+      "streams": 16202,
+      "hours": 641.6,
+      "topArtist": "Joaquín Sabina",
+      "skipRatePct": 3.6
+    },
+    {
+      "year": "2023",
+      "streams": 11023,
+      "hours": 515.1,
+      "topArtist": "The Killers",
+      "skipRatePct": 23.5
+    },
+    {
+      "year": "2024",
+      "streams": 9870,
+      "hours": 482.7,
+      "topArtist": "John Mayer",
+      "skipRatePct": 22.3
+    }
+  ],
+  "playbackTriggers": [
+    {
+      "trigger": "trackdone",
+      "count": 76655
+    },
+    {
+      "trigger": "fwdbtn",
+      "count": 53793
+    },
+    {
+      "trigger": "clickrow",
+      "count": 11228
+    },
+    {
+      "trigger": "appload",
+      "count": 3729
+    },
+    {
+      "trigger": "backbtn",
+      "count": 2205
+    },
+    {
+      "trigger": "playbtn",
+      "count": 1458
+    },
+    {
+      "trigger": "remote",
+      "count": 477
+    },
+    {
+      "trigger": "trackerror",
+      "count": 120
+    },
+    {
+      "trigger": "unknown",
+      "count": 23
+    },
+    {
+      "trigger": "nextbtn",
+      "count": 21
+    },
+    {
+      "trigger": "popup",
+      "count": 5
+    },
+    {
+      "trigger": "endplay",
+      "count": 2
+    },
+    {
+      "trigger": "autoplay",
+      "count": 1
+    }
+  ]
+}

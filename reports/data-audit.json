@@ -1,0 +1,745 @@
+{
+  "auditTimestamp": "2026-09-20T06:21:26.842Z",
+  "spotify": {
+    "records": 149860,
+    "headers": [
+      "﻿spotify_track_uri",
+      "ts",
+      "platform",
+      "ms_played",
+      "track_name",
+      "artist_name",
+      "album_name",
+      "reason_start",
+      "reason_end",
+      "shuffle",
+      "skipped"
+    ],
+    "dateRange": {
+      "min": "2013-07-08",
+      "max": "2024-12-15"
+    },
+    "uniqueTracksCount": 14639,
+    "uniqueArtistsCount": 4113,
+    "uniqueAlbumsCount": 8437,
+    "totalListeningHours": 5341.5,
+    "skippedCount": 7869,
+    "skipRatePct": 5.25,
+    "shuffleCount": 111583,
+    "shuffleRatePct": 74.46,
+    "platformCounts": {
+      "web player": 225,
+      "windows": 1691,
+      "android": 139821,
+      "iOS": 3049,
+      "cast to device": 3898,
+      "mac": 1176
+    },
+    "yearlyBreakdown": [
+      {
+        "year": "2013",
+        "streams": 185,
+        "hours": 7.8
+      },
+      {
+        "year": "2014",
+        "streams": 23,
+        "hours": 1
+      },
+      {
+        "year": "2015",
+        "streams": 2809,
+        "hours": 59.2
+      },
+      {
+        "year": "2016",
+        "streams": 6413,
+        "hours": 197.6
+      },
+      {
+        "year": "2017",
+        "streams": 26320,
+        "hours": 670.6
+      },
+      {
+        "year": "2018",
+        "streams": 14817,
+        "hours": 474.2
+      },
+      {
+        "year": "2019",
+        "streams": 14927,
+        "hours": 479.2
+      },
+      {
+        "year": "2020",
+        "streams": 24280,
+        "hours": 920.7
+      },
+      {
+        "year": "2021",
+        "streams": 22991,
+        "hours": 891.8
+      },
+      {
+        "year": "2022",
+        "streams": 16202,
+        "hours": 641.6
+      },
+      {
+        "year": "2023",
+        "streams": 11023,
+        "hours": 515.1
+      },
+      {
+        "year": "2024",
+        "streams": 9870,
+        "hours": 482.7
+      }
+    ],
+    "topArtists": [
+      {
+        "name": "The Beatles",
+        "hours": 336.2
+      },
+      {
+        "name": "The Killers",
+        "hours": 294.3
+      },
+      {
+        "name": "John Mayer",
+        "hours": 201.4
+      },
+      {
+        "name": "Bob Dylan",
+        "hours": 158.2
+      },
+      {
+        "name": "Paul McCartney",
+        "hours": 99.3
+      },
+      {
+        "name": "Howard Shore",
+        "hours": 96.9
+      },
+      {
+        "name": "The Strokes",
+        "hours": 88.2
+      },
+      {
+        "name": "The Rolling Stones",
+        "hours": 85.5
+      },
+      {
+        "name": "Pink Floyd",
+        "hours": 72.4
+      },
+      {
+        "name": "Led Zeppelin",
+        "hours": 69
+      }
+    ],
+    "topTracks": [
+      {
+        "name": "Ode To The Mets — The Strokes",
+        "plays": 207
+      },
+      {
+        "name": "In the Blood — John Mayer",
+        "plays": 181
+      },
+      {
+        "name": "Dying Breed — The Killers",
+        "plays": 166
+      },
+      {
+        "name": "Caution — The Killers",
+        "plays": 164
+      },
+      {
+        "name": "19 Dias y 500 Noches - En Directo — Joaquín Sabina",
+        "plays": 148
+      },
+      {
+        "name": "All These Things That I've Done — The Killers",
+        "plays": 142
+      },
+      {
+        "name": "Concerning Hobbits — Howard Shore",
+        "plays": 142
+      },
+      {
+        "name": "Come Together - Remastered 2009 — The Beatles",
+        "plays": 137
+      },
+      {
+        "name": "Yesterday - Remastered 2009 — The Beatles",
+        "plays": 134
+      },
+      {
+        "name": "Crucify Your Mind — Rodríguez",
+        "plays": 131
+      }
+    ],
+    "reasonStartCounts": {
+      "autoplay": 1,
+      "clickrow": 11228,
+      "trackdone": 76655,
+      "nextbtn": 21,
+      "backbtn": 2205,
+      "unknown": 23,
+      "popup": 5,
+      "appload": 3729,
+      "fwdbtn": 53793,
+      "trackerror": 120,
+      "remote": 477,
+      "endplay": 2,
+      "playbtn": 1458
+    },
+    "reasonEndCounts": {
+      "clickrow": 34,
+      "unknown": 268,
+      "nextbtn": 21,
+      "trackdone": 77194,
+      "backbtn": 2182,
+      "reload": 4,
+      "popup": 6,
+      "endplay": 10119,
+      "fwdbtn": 53470,
+      "appload": 7,
+      "unexpected-exit-while-paused": 1725,
+      "unexpected-exit": 118,
+      "logout": 4367,
+      "remote": 224,
+      "trackerror": 4
+    },
+    "missingFieldsCount": 0
+  },
+  "household": {
+    "records": 2461,
+    "headers": [
+      "Date",
+      "Mode",
+      "Category",
+      "Subcategory",
+      "Note",
+      "Amount",
+      "Income/Expense",
+      "Currency"
+    ],
+    "dateRange": {
+      "min": "2015-01-01",
+      "max": "2018-09-20"
+    },
+    "cashflowSummary": {
+      "totalExpense": 1957390.53,
+      "totalIncome": 3042397.35,
+      "totalTransferOut": 1770780.9,
+      "totalTransferIn": 0,
+      "flowCounts": {
+        "Expense": 2176,
+        "Transfer-Out": 160,
+        "Income": 125
+      }
+    },
+    "categoryDistribution": [
+      {
+        "category": "Money transfer",
+        "total": 606528.9,
+        "count": 43
+      },
+      {
+        "category": "Investment",
+        "total": 271858,
+        "count": 103
+      },
+      {
+        "category": "Transportation",
+        "total": 169053.78,
+        "count": 307
+      },
+      {
+        "category": "Household",
+        "total": 161645.58,
+        "count": 176
+      },
+      {
+        "category": "subscription",
+        "total": 114587.91,
+        "count": 143
+      },
+      {
+        "category": "Food",
+        "total": 96403.1,
+        "count": 907
+      },
+      {
+        "category": "Public Provident Fund",
+        "total": 90000,
+        "count": 8
+      },
+      {
+        "category": "Other",
+        "total": 87025.28,
+        "count": 114
+      },
+      {
+        "category": "Family",
+        "total": 78582.2,
+        "count": 71
+      },
+      {
+        "category": "Health",
+        "total": 66252.75,
+        "count": 94
+      },
+      {
+        "category": "Tourism",
+        "total": 63608.85,
+        "count": 5
+      },
+      {
+        "category": "Gift",
+        "total": 40168,
+        "count": 30
+      },
+      {
+        "category": "Apparel",
+        "total": 25373.82,
+        "count": 47
+      },
+      {
+        "category": "Recurring Deposit",
+        "total": 22000,
+        "count": 22
+      },
+      {
+        "category": "maid",
+        "total": 21839,
+        "count": 17
+      },
+      {
+        "category": "Cook",
+        "total": 12443,
+        "count": 4
+      },
+      {
+        "category": "Rent",
+        "total": 10709,
+        "count": 4
+      },
+      {
+        "category": "Festivals",
+        "total": 6911,
+        "count": 16
+      },
+      {
+        "category": "Culture",
+        "total": 4304.36,
+        "count": 11
+      },
+      {
+        "category": "Beauty",
+        "total": 4189,
+        "count": 22
+      },
+      {
+        "category": "Self-development",
+        "total": 2357,
+        "count": 2
+      },
+      {
+        "category": "Education",
+        "total": 537,
+        "count": 18
+      },
+      {
+        "category": "Grooming",
+        "total": 400,
+        "count": 4
+      },
+      {
+        "category": "Social Life",
+        "total": 298,
+        "count": 1
+      },
+      {
+        "category": "water (jar /tanker)",
+        "total": 148,
+        "count": 3
+      },
+      {
+        "category": "Documents",
+        "total": 100,
+        "count": 2
+      },
+      {
+        "category": "garbage disposal",
+        "total": 67,
+        "count": 2
+      }
+    ],
+    "paymentModes": [
+      {
+        "mode": "Saving Bank account 1",
+        "count": 1223,
+        "totalAmount": 5791530.99
+      },
+      {
+        "mode": "Cash",
+        "count": 1046,
+        "totalAmount": 176252
+      },
+      {
+        "mode": "Credit Card",
+        "count": 162,
+        "totalAmount": 205254.01
+      },
+      {
+        "mode": "Equity Mutual Fund B",
+        "count": 11,
+        "totalAmount": 22000
+      },
+      {
+        "mode": "Share Market Trading",
+        "count": 5,
+        "totalAmount": 102798.57
+      },
+      {
+        "mode": "Saving Bank account 2",
+        "count": 5,
+        "totalAmount": 752.85
+      },
+      {
+        "mode": "Recurring Deposit",
+        "count": 3,
+        "totalAmount": 94738
+      },
+      {
+        "mode": "Debit Card",
+        "count": 2,
+        "totalAmount": 942.36
+      },
+      {
+        "mode": "Equity Mutual Fund C",
+        "count": 1,
+        "totalAmount": 6049
+      },
+      {
+        "mode": "Equity Mutual Fund A",
+        "count": 1,
+        "totalAmount": 113376
+      },
+      {
+        "mode": "Equity Mutual Fund D",
+        "count": 1,
+        "totalAmount": 106875
+      },
+      {
+        "mode": "Fixed Deposit",
+        "count": 1,
+        "totalAmount": 150000
+      }
+    ],
+    "yearlySpend": [
+      {
+        "year": "2015",
+        "spend": 422074.4,
+        "transactions": 401
+      },
+      {
+        "year": "2016",
+        "spend": 470084.2,
+        "transactions": 349
+      },
+      {
+        "year": "2017",
+        "spend": 652597.67,
+        "transactions": 1035
+      },
+      {
+        "year": "2018",
+        "spend": 412634.26,
+        "transactions": 676
+      }
+    ],
+    "topExpenses": [
+      {
+        "date": "2017-01-01",
+        "category": "Money transfer",
+        "subcategory": "",
+        "note": "",
+        "amount": 100000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2018-01-18",
+        "category": "Transportation",
+        "subcategory": "Bike",
+        "note": "Two Wheeler Bikedelux second installment",
+        "amount": 50000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2015-12-01",
+        "category": "Money transfer",
+        "subcategory": "",
+        "note": "",
+        "amount": 50000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2018-01-27",
+        "category": "Transportation",
+        "subcategory": "Bike",
+        "note": "Two Wheeler Bikedelux third installment",
+        "amount": 43000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2017-08-08",
+        "category": "Tourism",
+        "subcategory": "Trip",
+        "note": "Tours and Travel",
+        "amount": 43000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2016-12-01",
+        "category": "Investment",
+        "subcategory": "Public Provident Fund",
+        "note": "",
+        "amount": 40000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2018-07-31",
+        "category": "Money transfer",
+        "subcategory": "Home",
+        "note": "",
+        "amount": 30000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2018-01-01",
+        "category": "Money transfer",
+        "subcategory": "Home",
+        "note": "",
+        "amount": 30000,
+        "mode": "Saving Bank account 1"
+      },
+      {
+        "date": "2017-12-20",
+        "category": "subscription",
+        "subcategory": "Edtech Course",
+        "note": "Renewal",
+        "amount": 28400,
+        "mode": "Credit Card"
+      },
+      {
+        "date": "2018-04-06",
+        "category": "Money transfer",
+        "subcategory": "Home",
+        "note": "",
+        "amount": 24500,
+        "mode": "Saving Bank account 1"
+      }
+    ],
+    "missingValues": {
+      "missingCategory": 0,
+      "missingNote": 521
+    }
+  },
+  "multiFacet": {
+    "records": 10267,
+    "headers": [
+      "trans_id",
+      "trans_date_trans_time",
+      "cc_num",
+      "merchant",
+      "category",
+      "amt",
+      "first",
+      "last",
+      "gender",
+      "street",
+      "city",
+      "state",
+      "lat",
+      "long",
+      "city_pop",
+      "job",
+      "dob",
+      "merch_lat",
+      "merch_long",
+      "is_fraud",
+      "customer_id"
+    ],
+    "dateRange": {
+      "min": "2022-04-17",
+      "max": "2024-04-16"
+    },
+    "financialMetrics": {
+      "totalVolume": 48966073.38,
+      "averageAmount": 4769.27,
+      "medianAmount": 4783.1,
+      "minAmount": 0,
+      "maxAmount": 9991.71
+    },
+    "fraudAudit": {
+      "fraudLabelledCount": 5046,
+      "fraudLabelledPct": 49.15,
+      "legitimateCount": 4576,
+      "missingOrUnlabelledFraudCount": 645,
+      "yearlyFraudBreakdown": {
+        "2022": 1563,
+        "2023": 2363,
+        "2024": 697
+      }
+    },
+    "yearlyBreakdown": [
+      {
+        "year": "2022",
+        "count": 3303,
+        "totalAmount": 15649309.68,
+        "fraudCount": 1563
+      },
+      {
+        "year": "2023",
+        "count": 4799,
+        "totalAmount": 23091829.28,
+        "fraudCount": 2363
+      },
+      {
+        "year": "2024",
+        "count": 1315,
+        "totalAmount": 6427930.38,
+        "fraudCount": 697
+      }
+    ],
+    "categoryDistribution": [
+      {
+        "category": "travel",
+        "total": 12044742.4,
+        "count": 2419
+      },
+      {
+        "category": "entertainment",
+        "total": 11572453.74,
+        "count": 2388
+      },
+      {
+        "category": "online_shopping",
+        "total": 11558159.7,
+        "count": 2596
+      },
+      {
+        "category": "fitness_and_medical",
+        "total": 9785338.1,
+        "count": 2067
+      },
+      {
+        "category": "Uncategorized",
+        "total": 4005379.44,
+        "count": 797
+      }
+    ],
+    "topStates": [
+      {
+        "state": "Uttarakhand",
+        "count": 410
+      },
+      {
+        "state": "Tamil Nadu",
+        "count": 401
+      },
+      {
+        "state": "Maharashtra",
+        "count": 399
+      },
+      {
+        "state": "Telangana",
+        "count": 397
+      },
+      {
+        "state": "Arunachal Pradesh",
+        "count": 396
+      },
+      {
+        "state": "Sikkim",
+        "count": 394
+      },
+      {
+        "state": "West Bengal",
+        "count": 385
+      },
+      {
+        "state": "Nagaland",
+        "count": 384
+      },
+      {
+        "state": "Tripura",
+        "count": 375
+      },
+      {
+        "state": "Assam",
+        "count": 355
+      }
+    ],
+    "genderDistribution": {
+      "F": 4707,
+      "M": 4787
+    },
+    "topJobs": [
+      {
+        "job": "Event organiser",
+        "count": 58
+      },
+      {
+        "job": "Conservator, museum/gallery",
+        "count": 51
+      },
+      {
+        "job": "Designer, ceramics/pottery",
+        "count": 51
+      },
+      {
+        "job": "Optician, dispensing",
+        "count": 50
+      },
+      {
+        "job": "Adult guidance worker",
+        "count": 48
+      },
+      {
+        "job": "Fine artist",
+        "count": 46
+      },
+      {
+        "job": "Data processing manager",
+        "count": 43
+      },
+      {
+        "job": "Buyer, industrial",
+        "count": 42
+      },
+      {
+        "job": "Engineer, site",
+        "count": 42
+      },
+      {
+        "job": "Insurance claims handler",
+        "count": 42
+      }
+    ],
+    "missingValues": {
+      "missingTransId": 649,
+      "missingCategory": 797,
+      "missingCity": 730,
+      "missingState": 847,
+      "missingCustomerId": 801,
+      "missingCoords": 2702,
+      "missingFraudLabel": 645
+    }
+  }
+}

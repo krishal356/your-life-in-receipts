@@ -1,0 +1,176 @@
+{
+  "timelineSpan": {
+    "minYear": "2013",
+    "maxYear": "2024"
+  },
+  "totalStreams": 149860,
+  "totalListeningHours": 5341.5,
+  "totalHouseholdSpend": 1957390.53,
+  "totalCardSpend": 48966073.38,
+  "totalTransactions": 162588,
+  "years": [
+    {
+      "year": "2013",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": false,
+      "totalListeningHours": 7.8,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify"
+      ],
+      "highlightText": "Early Spotify Streaming Era"
+    },
+    {
+      "year": "2014",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": false,
+      "totalListeningHours": 1,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify"
+      ],
+      "highlightText": "Early Spotify Streaming Era"
+    },
+    {
+      "year": "2015",
+      "hasSpotify": true,
+      "hasHousehold": true,
+      "hasFinancial": false,
+      "totalListeningHours": 59.2,
+      "totalHouseholdSpend": 422074.4,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify",
+        "household"
+      ],
+      "highlightText": "Living Expenses + Streaming Discovery"
+    },
+    {
+      "year": "2016",
+      "hasSpotify": true,
+      "hasHousehold": true,
+      "hasFinancial": false,
+      "totalListeningHours": 197.6,
+      "totalHouseholdSpend": 470084.2,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify",
+        "household"
+      ],
+      "highlightText": "The Hustle Year: Work, Groceries & Daily Soundtracks"
+    },
+    {
+      "year": "2017",
+      "hasSpotify": true,
+      "hasHousehold": true,
+      "hasFinancial": false,
+      "totalListeningHours": 670.6,
+      "totalHouseholdSpend": 652597.67,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify",
+        "household"
+      ],
+      "highlightText": "Peak Household Activity (₹6.5L Spend, 26k Streams)"
+    },
+    {
+      "year": "2018",
+      "hasSpotify": true,
+      "hasHousehold": true,
+      "hasFinancial": false,
+      "totalListeningHours": 474.2,
+      "totalHouseholdSpend": 412634.26,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify",
+        "household"
+      ],
+      "highlightText": "Transit, Investments & Everyday Notes"
+    },
+    {
+      "year": "2019",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": false,
+      "totalListeningHours": 479.2,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify"
+      ],
+      "highlightText": "Focused Music Listening Era"
+    },
+    {
+      "year": "2020",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": false,
+      "totalListeningHours": 920.7,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify"
+      ],
+      "highlightText": "Pandemic Surge: Peak 920.7 Listening Hours"
+    },
+    {
+      "year": "2021",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": false,
+      "totalListeningHours": 891.8,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 0,
+      "activeFacets": [
+        "spotify"
+      ],
+      "highlightText": "High-Volume Streaming (891.8 Hours)"
+    },
+    {
+      "year": "2022",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": true,
+      "totalListeningHours": 641.6,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 15649309.68,
+      "activeFacets": [
+        "spotify",
+        "financial"
+      ],
+      "highlightText": "Modern Digital Commerce & Card Activity Begins"
+    },
+    {
+      "year": "2023",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": true,
+      "totalListeningHours": 515.1,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 23091829.28,
+      "activeFacets": [
+        "spotify",
+        "financial"
+      ],
+      "highlightText": "Peak Card Commerce (₹2.3 Cr Volume & Travel)"
+    },
+    {
+      "year": "2024",
+      "hasSpotify": true,
+      "hasHousehold": false,
+      "hasFinancial": true,
+      "totalListeningHours": 482.7,
+      "totalHouseholdSpend": 0,
+      "totalCardSpend": 6427930.38,
+      "activeFacets": [
+        "spotify",
+        "financial"
+      ],
+      "highlightText": "Recent Commercial & Soundtrack Footprint"
+    }
+  ]
+}
