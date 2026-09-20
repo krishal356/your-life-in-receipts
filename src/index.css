@@ -135,7 +135,13 @@ a {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 1.5rem 1rem 4rem 1rem;
+  padding: 1rem 0.75rem 3.5rem 0.75rem;
+}
+
+@media (min-width: 480px) {
+  .main-content {
+    padding: 1.5rem 1rem 4rem 1rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -164,17 +170,23 @@ a {
   box-shadow: var(--shadow-receipt);
   font-family: var(--font-mono);
   color: var(--color-ink-primary);
-  padding: 2rem 1.75rem 2.25rem 1.75rem;
+  padding: 1.75rem 1.25rem 2rem 1.25rem;
   transition: transform var(--transition-normal);
   overflow: hidden;
 }
 
-@media (max-width: 440px) {
+@media (min-width: 480px) {
   .receipt-container {
-    padding: 1.5rem 1rem 1.75rem 1rem;
+    padding: 2rem 1.75rem 2.25rem 1.75rem;
   }
-  .receipt-item-name {
-    max-width: 140px;
+}
+
+@media (max-width: 380px) {
+  .receipt-container {
+    padding: 1.25rem 0.75rem 1.5rem 0.75rem;
+  }
+  .receipt-store-title {
+    font-size: 1.0625rem !important;
   }
 }
 
@@ -497,4 +509,18 @@ a {
     scroll-behavior: auto !important;
   }
 }
+
+/* ==========================================================================
+   Keyframe Animations
+   ========================================================================== */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 

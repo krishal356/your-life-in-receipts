@@ -1,7 +1,8 @@
 import React from 'react';
-import { ShoppingBag, Coffee, CreditCard } from 'lucide-react';
+import { ShoppingBag, Coffee } from 'lucide-react';
 import householdDataRaw from '../../data/household-insights.json';
 import { HouseholdInsights } from '../../types';
+import { formatINR } from '../../utils/formatters';
 
 const householdData = householdDataRaw as HouseholdInsights;
 
@@ -28,23 +29,23 @@ export const HouseholdTab: React.FC = () => {
             <span>Living Spend Receipt • 2015–2018 (~3.75 Years)</span>
           </div>
           <h3 style={{ fontSize: '1.375rem', fontWeight: 800, color: 'var(--color-ink-primary)', marginBottom: '0.25rem' }}>
-            ₹{householdData.summary.totalExpense.toLocaleString('en-IN')} in Household Outlay
+            {formatINR(householdData.summary.totalExpense)} in Household Outlay
           </h3>
           <p style={{ fontSize: '0.875rem', color: 'var(--color-ink-secondary)' }}>
             2,176 individual expenses and micro-moments across food, rent, transit & investments.
           </p>
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem' }}>
+        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <div style={{ textAlign: 'center', background: '#ffffff', padding: '0.75rem 1.25rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-facet-household-border)' }}>
             <div style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--color-status-success)' }}>
-              ₹{householdData.summary.totalIncome.toLocaleString('en-IN')}
+              {formatINR(householdData.summary.totalIncome)}
             </div>
             <div style={{ fontSize: '0.6875rem', color: 'var(--color-ink-muted)', textTransform: 'uppercase' }}>Total Inflow</div>
           </div>
           <div style={{ textAlign: 'center', background: '#ffffff', padding: '0.75rem 1.25rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-facet-household-border)' }}>
             <div style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--color-facet-household)' }}>
-              ₹{householdData.summary.totalTransferOut.toLocaleString('en-IN')}
+              {formatINR(householdData.summary.totalTransferOut)}
             </div>
             <div style={{ fontSize: '0.6875rem', color: 'var(--color-ink-muted)', textTransform: 'uppercase' }}>Investments & PPF</div>
           </div>
@@ -52,7 +53,7 @@ export const HouseholdTab: React.FC = () => {
       </div>
 
       {/* Grid: Category Breakdown & Memorable Micro-Moments */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '1.5rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '1.5rem' }}>
         {/* Category Breakdown */}
         <div className="card">
           <h4 style={{ fontSize: '1.0625rem', fontWeight: 800, color: 'var(--color-ink-primary)', marginBottom: '1.25rem' }}>
@@ -78,7 +79,7 @@ export const HouseholdTab: React.FC = () => {
                 </div>
                 <div style={{ textAlign: 'right' }}>
                   <div style={{ fontWeight: 800, fontSize: '0.9375rem', color: 'var(--color-facet-household)' }}>
-                    ₹{cat.totalAmount.toLocaleString('en-IN')}
+                    {formatINR(cat.totalAmount)}
                   </div>
                 </div>
               </div>
@@ -103,45 +104,26 @@ export const HouseholdTab: React.FC = () => {
                   padding: '0.75rem',
                   backgroundColor: 'var(--color-canvas)',
                   borderRadius: 'var(--radius-md)',
-                  borderLeft: '3px solid var(--color-facet-household)',
+                  border: '1px solid var(--color-border-subtle)',
                 }}
               >
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.25rem' }}>
-                  <div style={{ fontWeight: 700, fontSize: '0.875rem', color: 'var(--color-ink-primary)' }}>
-                    "{moment.note}"
-                  </div>
-                  <span style={{ fontWeight: 800, fontSize: '0.875rem', color: 'var(--color-ink-primary)', whiteSpace: 'nowrap', marginLeft: '0.5rem' }}>
-                    ₹{moment.amount.toLocaleString('en-IN')}
+                  <span style={{ fontSize: '0.75rem', fontWeight: 700, color: 'var(--color-facet-household)' }}>
+                    {moment.category} • {moment.subcategory}
+                  </span>
+                  <span style={{ fontSize: '0.875rem', fontWeight: 800, color: 'var(--color-ink-primary)' }}>
+                    {formatINR(moment.amount)}
                   </span>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.75rem', color: 'var(--color-ink-muted)' }}>
-                  <span>{moment.category} • {moment.mode}</span>
-                  <span>{moment.date}</span>
+                <p style={{ fontSize: '0.8125rem', color: 'var(--color-ink-secondary)', fontStyle: 'italic' }}>
+                  "{moment.note}"
+                </p>
+                <div style={{ fontSize: '0.6875rem', color: 'var(--color-ink-muted)', marginTop: '0.35rem' }}>
+                  {moment.date} • Paid via {moment.mode}
                 </div>
               </div>
             ))}
           </div>
-        </div>
-      </div>
-
-      {/* Payment Modes */}
-      <div className="card">
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '1rem' }}>
-          <CreditCard size={20} color="var(--color-facet-household)" />
-          <h4 style={{ fontSize: '1.0625rem', fontWeight: 800, color: 'var(--color-ink-primary)' }}>
-            Payment Channel Breakdown
-          </h4>
-        </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '1rem' }}>
-          {householdData.paymentModes.map((pm) => (
-            <div key={pm.mode} style={{ backgroundColor: 'var(--color-canvas)', padding: '1rem', borderRadius: 'var(--radius-md)' }}>
-              <div style={{ fontSize: '0.8125rem', fontWeight: 700, color: 'var(--color-ink-muted)' }}>{pm.mode}</div>
-              <div style={{ fontSize: '1.125rem', fontWeight: 800, color: 'var(--color-ink-primary)', margin: '0.25rem 0' }}>
-                ₹{pm.totalAmount.toLocaleString('en-IN')}
-              </div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--color-ink-secondary)' }}>{pm.count} transactions</div>
-            </div>
-          ))}
         </div>
       </div>
     </div>

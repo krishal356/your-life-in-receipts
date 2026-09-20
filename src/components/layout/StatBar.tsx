@@ -2,6 +2,7 @@ import React from 'react';
 import { Music, ShoppingBag, CreditCard, Calendar } from 'lucide-react';
 import timelineDataRaw from '../../data/timeline-summary.json';
 import { TimelineSummary } from '../../types';
+import { formatINR, formatNumber, formatHours } from '../../utils/formatters';
 
 const timelineData = timelineDataRaw as TimelineSummary;
 
@@ -15,11 +16,12 @@ export const StatBar: React.FC = () => {
       }}
     >
       <div
+        className="stat-bar-grid"
         style={{
           maxWidth: '1280px',
           margin: '0 auto',
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 200px), 1fr))',
           gap: '1rem',
         }}
       >
@@ -46,7 +48,7 @@ export const StatBar: React.FC = () => {
               Culture & Sound
             </div>
             <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--color-ink-primary)' }}>
-              {timelineData.totalStreams.toLocaleString()} streams ({timelineData.totalListeningHours.toLocaleString()} hrs)
+              {formatNumber(timelineData.totalStreams)} streams ({formatHours(timelineData.totalListeningHours)})
             </div>
           </div>
         </div>
@@ -60,7 +62,7 @@ export const StatBar: React.FC = () => {
               Household Living
             </div>
             <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--color-ink-primary)' }}>
-              ₹{timelineData.totalHouseholdSpend.toLocaleString('en-IN')} (2015–2018)
+              {formatINR(timelineData.totalHouseholdSpend)} (2015–2018)
             </div>
           </div>
         </div>
@@ -74,7 +76,7 @@ export const StatBar: React.FC = () => {
               Card Commerce
             </div>
             <div style={{ fontSize: '0.9375rem', fontWeight: 700, color: 'var(--color-ink-primary)' }}>
-              ₹{timelineData.totalCardSpend.toLocaleString('en-IN')} (2022–2024)
+              {formatINR(timelineData.totalCardSpend)} (2022–2024)
             </div>
           </div>
         </div>
