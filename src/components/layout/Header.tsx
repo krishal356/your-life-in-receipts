@@ -1,5 +1,5 @@
 import React from 'react';
-import { Receipt, Sparkles } from 'lucide-react';
+import { Receipt } from 'lucide-react';
 
 export const Header: React.FC = () => {
   return (
@@ -53,26 +53,6 @@ export const Header: React.FC = () => {
             <p style={{ fontSize: '0.8125rem', color: 'var(--color-ink-muted)' }}>
               Editorial life ledger synthesizing sound, daily living & modern commerce
             </p>
-          </div>
-        </div>
-
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <div
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '0.4rem',
-              fontSize: '0.8125rem',
-              color: 'var(--color-facet-spotify)',
-              background: 'var(--color-facet-spotify-bg)',
-              border: '1px solid var(--color-facet-spotify-border)',
-              padding: '0.35rem 0.75rem',
-              borderRadius: 'var(--radius-full)',
-              fontWeight: 600,
-            }}
-          >
-            <Sparkles size={14} />
-            <span>100% Frontend-Only</span>
           </div>
         </div>
       </div>

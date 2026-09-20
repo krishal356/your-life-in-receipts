@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Music, ShoppingBag, CreditCard, Layers } from 'lucide-react';
+import { Music, ShoppingBag, CreditCard } from 'lucide-react';
 import { SpotifyTab } from './SpotifyTab';
 import { HouseholdTab } from './HouseholdTab';
 import { FinancialTab } from './FinancialTab';
@@ -10,10 +10,6 @@ export const FacetExplorer: React.FC = () => {
   return (
     <section aria-label="The Three Life Facets" style={{ marginBottom: '3.5rem' }}>
       <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 2rem auto' }}>
-        <div className="badge" style={{ backgroundColor: 'var(--color-canvas-subtle)', color: 'var(--color-ink-secondary)', marginBottom: '0.75rem' }}>
-          <Layers size={14} />
-          <span>Tri-Facet Deep Dives</span>
-        </div>
         <h2 style={{ fontSize: '1.75rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--color-ink-primary)', marginBottom: '0.5rem' }}>
           The Three Life Facets
         </h2>

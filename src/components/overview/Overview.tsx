@@ -1,5 +1,4 @@
 import React from 'react';
-import { Sparkles } from 'lucide-react';
 import timelineDataRaw from '../../data/timeline-summary.json';
 import spotifyDataRaw from '../../data/spotify-insights.json';
 import householdDataRaw from '../../data/household-insights.json';
@@ -31,10 +30,6 @@ export const Overview: React.FC<OverviewProps> = ({ onNavigateToTab }) => {
         }}
       >
         <div style={{ maxWidth: '780px', position: 'relative', zIndex: 2 }}>
-          <div className="badge badge-spotify" style={{ marginBottom: '1rem' }}>
-            <Sparkles size={14} />
-            <span>11.4-Year Unified Life Chronology</span>
-          </div>
           <h2 style={{ fontSize: '2.25rem', fontWeight: 800, letterSpacing: '-0.03em', lineHeight: 1.2, color: 'var(--color-ink-primary)', marginBottom: '1rem' }}>
             Your Life, Itemized in Receipts.
           </h2>
@@ -133,7 +128,7 @@ export const Overview: React.FC<OverviewProps> = ({ onNavigateToTab }) => {
             Flagged vs 4,576 verified legitimate records
           </div>
           <div style={{ fontSize: '0.75rem', color: 'var(--color-ink-muted)', borderTop: '1px solid var(--color-border-subtle)', paddingTop: '0.5rem' }}>
-            100% card numbers masked for safe UI display
+            Card numbers masked (**** **** **** 1234)
           </div>
         </div>
       </div>

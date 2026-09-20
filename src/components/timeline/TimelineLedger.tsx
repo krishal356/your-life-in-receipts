@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Clock, ArrowUpDown, RefreshCw } from 'lucide-react';
+import { Search, ArrowUpDown, RefreshCw } from 'lucide-react';
 import { EmptyState } from '../common/EmptyState';
 import curatedDataRaw from '../../data/curated-receipts.json';
 import timelineDataRaw from '../../data/timeline-summary.json';
@@ -55,10 +55,6 @@ export const TimelineLedger: React.FC = () => {
   return (
     <section aria-label="Chronological Timeline Ledger" style={{ marginBottom: '3.5rem' }}>
       <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 2rem auto' }}>
-        <div className="badge" style={{ backgroundColor: 'var(--color-canvas-subtle)', color: 'var(--color-ink-secondary)', marginBottom: '0.75rem' }}>
-          <Clock size={14} />
-          <span>Universal Chronological Ledger</span>
-        </div>
         <h2 style={{ fontSize: '1.75rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--color-ink-primary)', marginBottom: '0.5rem' }}>
           Timeline Ledger
         </h2>

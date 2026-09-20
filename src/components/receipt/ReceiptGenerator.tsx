@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Printer, Copy, Check, SlidersHorizontal, Sparkles, RefreshCw, Calendar, Tag, Download } from 'lucide-react';
+import { Printer, Copy, Check, SlidersHorizontal, RefreshCw, Calendar, Tag, Download } from 'lucide-react';
 import { ThermalReceipt } from './ThermalReceipt';
 import curatedDataRaw from '../../data/curated-receipts.json';
 import timelineDataRaw from '../../data/timeline-summary.json';
@@ -147,10 +147,6 @@ export const ReceiptGenerator: React.FC = () => {
   return (
     <section aria-label="Thermal Receipt Generator" style={{ marginBottom: '3.5rem' }}>
       <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 2rem auto' }}>
-        <div className="badge badge-warning" style={{ marginBottom: '0.75rem' }}>
-          <Sparkles size={14} />
-          <span>Interactive Physical Metaphor</span>
-        </div>
         <h2 style={{ fontSize: '1.75rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--color-ink-primary)', marginBottom: '0.5rem' }}>
           Thermal Receipt Generator
         </h2>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldAlert, Lock, EyeOff } from 'lucide-react';
+import { Lock, EyeOff } from 'lucide-react';
 import financialDataRaw from '../../data/financial-insights.json';
 import { FinancialInsights } from '../../types';
 
@@ -11,10 +11,6 @@ export const FraudAudit: React.FC = () => {
   return (
     <section aria-label="Dataset Risk and Fraud Audit" style={{ marginBottom: '3.5rem' }}>
       <div style={{ textAlign: 'center', maxWidth: '720px', margin: '0 auto 2rem auto' }}>
-        <div className="badge badge-danger" style={{ marginBottom: '0.75rem' }}>
-          <ShieldAlert size={14} />
-          <span>Dataset Anomaly Inspection</span>
-        </div>
         <h2 style={{ fontSize: '1.75rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'var(--color-ink-primary)', marginBottom: '0.5rem' }}>
           Dataset Risk & Fraud Audit
         </h2>
@@ -44,7 +40,7 @@ export const FraudAudit: React.FC = () => {
             Data Privacy & Scope Notice
           </div>
           <p style={{ fontSize: '0.8125rem', color: 'var(--color-ink-secondary)', lineHeight: 1.5 }}>
-            This section visualizes and audits the <strong>is_fraud</strong> labels present in the organizer-provided dataset. It does not run an active predictive machine-learning model. All credit card numbers are strictly masked (e.g. <code>**** **** **** 1234</code>) and all raw customer identifiers and street addresses are suppressed.
+            This section visualizes and audits the <strong>is_fraud</strong> labels present in the source dataset. It does not run an active predictive machine-learning model. All credit card numbers are strictly masked (e.g. <code>**** **** **** 1234</code>) and all raw customer identifiers and street addresses are suppressed.
           </p>
         </div>
       </div>
