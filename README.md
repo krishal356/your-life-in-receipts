@@ -4,11 +4,10 @@
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=black&style=flat-square)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?logo=typescript&logoColor=white&style=flat-square)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.21-646CFF?logo=vite&logoColor=white&style=flat-square)](https://vitejs.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs&logoColor=white&style=flat-square)](https://nodejs.org/)
-[![Vercel](https://img.shields.io/badge/Deployment-Vercel-000000?logo=vercel&logoColor=white&style=flat-square)](https://vercel.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Accessibility](https://img.shields.io/badge/Accessibility-WCAG_2.1_AA-blue?style=flat-square)](#-accessibility)
+[![Deployment](https://img.shields.io/badge/Deployment-Vercel-000000?logo=vercel&logoColor=white&style=flat-square)](https://vercel.com/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-WCAG_2.1_AA_Principles-blue?style=flat-square)](#-accessibility)
 [![Architecture](https://img.shields.io/badge/Architecture-100%25_Static_Client--Side-success?style=flat-square)](#%EF%B8%8F-system-architecture)
 
 ---
@@ -44,7 +43,7 @@
 
 **"Your Life, In Receipts"** is a high-performance, responsive, accessible, frontend-only interactive life-analytics platform. It synthesizes three distinct real-world datasets spanning **11.4 years of personal activity (2013–2024)** into an interconnected personal ledger using an editorial thermal-receipt design metaphor.
 
-Rather than presenting isolated dashboards and spreadsheets, the application weaves together cultural habits (music listening), daily living micro-moments (household expenses), and modern card footprints into a cohesive life story. Users can explore chronological eras, customize and generate printable/downloadable thermal receipts, filter through multi-dimensional life facets, inspect interactive timelines, and review dataset risk audits with zero backend latency and complete client-side privacy.
+Rather than presenting isolated dashboards and spreadsheets, the application weaves together cultural habits (music listening), daily living micro-moments (household expenses), and modern card footprints into a cohesive life story. Users can explore chronological eras, customize and generate printable/downloadable thermal receipts, filter through multi-dimensional life facets, inspect interactive timelines, and review dataset risk audits—all running entirely client-side with complete user privacy.
 
 ---
 
@@ -114,8 +113,16 @@ flowchart TD
 ## 🚀 Key Features & Core Experience
 
 ### 1. 🧾 Interactive Thermal Receipt Generator
-- **Era Presets**: One-click configuration for curated life chapters (*All-Time Master Ledger*, *College & Chai (2015–2018)*, *Pandemic Sound (2020–2021)*, *Modern Card Commerce (2022–2024)*).
-- **Custom Scope Controls**: Fine-grained year filtering (2013–2024), facet filtering (Spotify, Household, Financial), and item count slider (5 to 30 items).
+- **Era Presets**: One-click configuration for curated life chapters:
+  - *All-Time Master* (11-year composite life ledger)
+  - *2016: The Hustle Year* (Work routines & everyday soundtracks)
+  - *2017: Peak Household* (₹6.5L household expenses & groceries)
+  - *2020: Streaming Surge* (920.7 hours of pandemic listening)
+  - *2023: Digital Commerce* (Travel & modern card spending)
+- **Custom Scope Controls**:
+  - **Timeline Year Selector**: All Years (2013–2024 composite) or individual years (2013 to 2024).
+  - **Data Facet Selector**: Unified All Facets, 🎵 Cultural Facet Only (Spotify), ☕ Household Living Facet Only, 💳 Card Commerce Facet Only.
+  - **Item Limit Slider**: Dynamic selection range from **4 to 14 items** (default: 8 items).
 - **Dynamic Ledger Compilation**: Automatically computes listening time, cash outflows, merchant breakdowns, and grand outlay.
 - **Export Capabilities**:
   - 🖨️ **Print Slip**: Dedicated `@media print` thermal paper layout.
@@ -197,8 +204,8 @@ flowchart LR
 ```
 
 All raw CSV datasets are preprocessed ahead of runtime into compressed, type-safe JSON structures in `src/data/`. This architectural strategy:
-1. Eliminates heavy in-browser CSV parsing overhead (~25 MB raw data $\rightarrow$ pre-indexed static JSON).
-2. Guarantees sub-10ms instantaneous filter and search interactions.
+1. Eliminates heavy in-browser CSV parsing overhead (raw multi-year CSV datasets $\rightarrow$ pre-indexed static JSON).
+2. Enables fast, responsive client-side filtering and search interactions across pre-indexed arrays.
 3. Ensures 100% deterministic and reproducible aggregations across environments.
 
 ---
@@ -247,10 +254,10 @@ graph TD
 | Category | Technology | Purpose |
 | :--- | :--- | :--- |
 | **Core Framework** | `React 18.3.1` | Declarative component hierarchy and state orchestration |
-| **Build & Bundler** | `Vite 5.4.2` | Hot Module Replacement (HMR) and optimized Rollup static build |
+| **Build & Bundler** | `Vite 5.4.21` | Hot Module Replacement (HMR) and optimized Rollup static build (`^5.4.2`) |
 | **Type Safety** | `TypeScript 5.5.3` | Strict end-to-end data contracts and type checking |
 | **Styling** | `Vanilla CSS Tokens` | Custom "Editorial Thermal Ledger" CSS variables, zero runtime overhead |
-| **Icons** | `Lucide React 1.16.0` | Featherweight accessible SVG iconography |
+| **Icons** | `Lucide React 1.47.0` | Accessible lightweight SVG iconography (`^1.16.0`) |
 | **Data Processing** | `Node.js (ESM Scripts)` | Deterministic offline CSV parsing and JSON metric compilation |
 | **Hosting Target** | `Vercel` | Static edge deployment with global CDN distribution |
 
@@ -311,24 +318,24 @@ your-life-in-receipts/
 
 ## ⚡ Performance Strategy
 
-- **Static Pre-computation**: Avoids parsing 25 MB of CSV files on every client visit.
+- **Static Pre-computation**: Avoids parsing raw multi-year CSV datasets on every client visit.
 - **Lightweight Bundle Footprint**:
   - `dist/assets/index-*.js`: **~143 kB** gzipped
   - `dist/assets/index-*.css`: **~2.3 kB** gzipped
   - `dist/index.html`: **~0.6 kB** gzipped
-- **Zero Runtime Dependencies**: No heavy chart engines or bulky UI suites.
-- **Fast Interaction Response**: Pre-indexed arrays in memory enable compound search/filtering in $<10\text{ms}$.
+- **No Heavy Dependencies**: No heavy charting or UI framework dependencies; runs lean on React and lightweight SVG icons.
+- **Fast Client-Side Interactions**: Pre-indexed arrays in memory enable responsive compound search and filtering.
 
 ---
 
 ## ♿ Accessibility
 
-The application is built in alignment with **WCAG 2.1 AA** accessibility principles:
+The application is designed and reviewed against **WCAG 2.1 AA** accessibility principles:
 - **Semantic Structure**: Proper usage of landmark elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`).
 - **Keyboard Traversal**: Full navigation support via <kbd>Tab</kbd>, <kbd>Enter</kbd>, <kbd>Space</kbd>, and arrow keys with visible focus rings (`outline: 2px solid var(--color-accent-primary)`).
 - **Explicit Accessible Names**: All interactive buttons, sliders, tabs, and form controls have descriptive `aria-label` or `aria-selected` attributes.
 - **Color Independence**: Statuses and categories always accompany textual labels alongside color tokens.
-- **High Contrast**: Text contrast ratios meet or exceed the 4.5:1 ratio for normal body copy.
+- **Readable Contrast**: Curated editorial color tokens designed for readable body and display text contrast.
 
 ---
 
@@ -349,8 +356,8 @@ The interface is verified across all standard viewport sizes with zero horizonta
 
 ## 🔒 Privacy & Security
 
-- **100% Client-Side Architecture**: Zero network telemetry, external API requests, or server-side data stores.
-- **Card Number Masking**: 100% of financial card numbers are formatted as `**** **** **** 1234`.
+- **100% Client-Side Architecture**: The application does not implement its own analytics or telemetry layer and makes zero external API requests.
+- **Card Number Masking**: Card numbers are masked before being rendered in the application UI (`**** **** **** 1234`).
 - **PII Suppression**: Raw customer identifiers, street addresses, exact coordinates, and personal birthdates are excluded.
 - **XSS Safety**: Deterministic React DOM string escaping with zero use of raw `innerHTML` or `dangerouslySetInnerHTML`.
 
@@ -431,10 +438,10 @@ The application is structured for instant static deployment on **Vercel**:
 
 ## 💡 Key Engineering Decisions
 
-1. **Preprocessing-First Data Pipeline**: Rather than parsing 25 MB of CSV files in the user's browser, data is aggregated offline into lean JSON indices.
+1. **Preprocessing-First Data Pipeline**: Rather than parsing raw CSV datasets in the user's browser, data is aggregated offline into lean JSON indices.
 2. **Deterministic State Management**: All statistics, totals, and receipt items are pure derived computations from pre-aggregated JSON datasets.
 3. **Receipt Design Metaphor**: Physical receipt elements (sawtooth edges, thermal paper fonts, dotted lines, barcode rendering) create a memorable, tactile narrative.
-4. **Zero Heavy Framework Bloat**: Custom CSS variables and lightweight inline SVG icons keep the JavaScript bundle under 150 kB gzipped.
+4. **Zero Heavy Framework Bloat**: Custom CSS variables and lightweight SVG icons keep the JavaScript bundle under 150 kB gzipped.
 
 ---
 
@@ -478,4 +485,4 @@ When maintaining or updating this project:
 
 ## 📜 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+Copyright © 2026 [Krishal Haria](https://github.com/krishal356). All rights reserved.
