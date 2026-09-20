@@ -27,6 +27,8 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange }) => {
       }}
     >
       <div
+        role="tablist"
+        aria-label="Application Navigation Tabs"
         style={{
           maxWidth: '1280px',
           margin: '0 auto',
